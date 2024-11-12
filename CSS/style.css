@@ -90,3 +90,55 @@ button:hover {
     height: 650px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+.pcontainer {
+    display: inline-flex;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+#respuesta {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    max-width: 210px;
+    width: 80%;
+    margin: auto 0;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    top: 255px;
+    left: 170px;
+}
+
+.item {
+    max-width: 300px;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 10px;
+    background-color: #492259;
+    align-items: center;
+    border-radius: 15px;
+    border: 3px dashed #8ED91E;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
