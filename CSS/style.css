@@ -162,7 +162,6 @@ button:hover {
     .item {
         max-width: 100%;
         margin: 10px auto;
-        
     }
 
     #respuesta {
@@ -182,6 +181,25 @@ button:hover {
     .index {
         max-width: 80%;
         margin: 10px auto;
+    }
+
+    .principal {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .reglas {
+        width: 100%;
+        max-width: 350px;
+        padding-left: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .empezar {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
 }
 
