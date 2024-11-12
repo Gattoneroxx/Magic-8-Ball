@@ -121,7 +121,7 @@ button:hover {
 .item {
     max-width: 300px;
     width: 90%;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-flow: column;
     font-size: 28px;
@@ -177,6 +177,11 @@ button:hover {
         font-size: 14px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         opacity: 0.8;
+    }
+
+    .index {
+        max-width: 80%;
+        margin: 10px auto;
     }
 }
 
