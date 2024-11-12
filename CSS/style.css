@@ -159,6 +159,12 @@ button:hover {
         height: auto;
     }
 
+    img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
     .item {
         max-width: 100%;
         margin: 10px auto;
@@ -185,19 +191,19 @@ button:hover {
 
     .principal {
         width: 100%;
-        max-width: 350px;
+        max-width: 250px;
     }
 
     .reglas {
         width: 100%;
-        max-width: 350px;
+        max-width: 250px;
         padding-left: 10px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
 
     .empezar {
         width: 100%;
-        max-width: 350px;
+        max-width: 250px;
         height: auto;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     }
